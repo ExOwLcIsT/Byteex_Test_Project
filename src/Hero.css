@@ -2,12 +2,12 @@
     text-align: left;
     width: 600px;
 }
-.hero-content > *{
-    text-align: left;
-    padding-right: 100px;
+
+.hero-content {
     width: 600px;
     margin: 17px;
 }
+
 .hero-content h1 {
     width: 592px;
     height: 87px;
@@ -21,6 +21,8 @@
 }
 
 .feature-list {
+
+    text-align: left;
     list-style: none;
     padding: 0;
 }
@@ -32,7 +34,6 @@
     font-size: 15px;
     letter-spacing: 3%;
     width: fit-content;
-    align-items: center;
     display: flex;
     color: #676869;
     text-align: left;
@@ -55,6 +56,7 @@
     height: 56px;
     border-radius: 5px;
     font-family: Sofia-pro;
+    margin-top: 35px;
 }
 
 .hero-images {
@@ -100,4 +102,92 @@
     height: 100%;
     object-fit: none;
     display: block;
+}
+
+.review-card {
+    width: 454px;
+    height: 172px;
+    margin-top: 36px;
+    background: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: var(--radius-lg);
+    padding: 16px 20px;
+    max-width: 300px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.review-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.reviewer-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.reviewer-initials {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #e8c8a0;
+    color: #7a4f28;
+    font-family: Sofia-pro;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.reviewer-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.reviewer-top {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.reviewer-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.star-rating {
+    font-size: 12px;
+    line-height: 1;
+    color: #FFB801;
+}
+
+.star {
+    color: #d1d5db;
+}
+
+.star--filled {
+    color: var(--star-gold);
+}
+
+.reviewer-badge {
+    font-size: 11px;
+    color: var(--text-secondary);
+}
+
+.review-text {
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin: 0;
 }

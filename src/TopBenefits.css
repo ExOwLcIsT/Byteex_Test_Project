@@ -1,0 +1,15 @@
+.top-benefits {
+    margin-top: -86px;
+    height: 530px;
+    background: linear-gradient(180deg, #F9F0E5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);
+    padding-top: 86px;
+}
+
+.as-seen-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Sofia-pro;
+    color: #868787;
+    font-size: 20px;
+}

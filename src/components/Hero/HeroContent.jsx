@@ -1,3 +1,4 @@
+import ReviewCard from "./ReviewCard";
 const FEATURES = [
   {
     id: 1,
@@ -41,6 +42,7 @@ export default function HeroContent() {
           →
         </span>
       </button>
+      <ReviewCard></ReviewCard>
     </div>
   );
 }

@@ -1,18 +1,20 @@
+.hero-container {
+    margin-top: 61px;
+    margin-left: 102px;
+    display: flex;
+    flex-direction: row;
+}
+
 .hero-content {
     text-align: left;
     width: 600px;
 }
 
-.hero-content {
-    width: 600px;
-    margin: 17px;
-}
-
-.hero-content h1 {
+.hero-content .content-title {
     width: 592px;
     height: 87px;
     text-align: left;
-    font-family: Sofia-pro;
+    font-family: Sofia-pro-light;
     color: #01005B;
     font-style: Regular;
     font-size: 38px;
@@ -20,17 +22,20 @@
     letter-spacing: 4%;
 }
 
-.feature-list {
 
+.hero-content .feature-list {
     text-align: left;
     list-style: none;
     padding: 0;
+    margin-left: 4px;
+    margin-top: 25px;
 }
 
-.feature-item {
-    height: 34px;
+.hero-content .feature-item {
+    height: fit-content;
+    min-height: 34px;
     line-height: 23px;
-    font-family: "Sofia-pro";
+    font-family: "Sofia-pro-light";
     font-size: 15px;
     letter-spacing: 3%;
     width: fit-content;
@@ -38,25 +43,45 @@
     color: #676869;
     text-align: left;
     max-width: 500px;
+    gap: 12px;
+    margin-bottom: 12px;
 }
 
-.feature-text {
-    margin-left: 13px;
+.hero-content .feature-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
-.feature-icon {
+.hero-content .feature-title {
+    width: 305px;
+    height: 20px;
+    text-align: left;
+    font-family: Sofia-pro-light;
+    color: #01005B;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    margin: 0;
+}
+
+
+.hero-content .feature-icon {
     height: 31px;
     width: 31px;
 }
 
-.cta-button {
+.hero-content .cta-button {
     background-color: #01005B;
     color: #FFFFFF;
     width: 356px;
     height: 56px;
     border-radius: 5px;
-    font-family: Sofia-pro;
+    font-family: Sofia-pro-light;
+    font-size: 18px;
     margin-top: 35px;
+    margin-left: 4px;
 }
 
 .hero-images {
@@ -69,6 +94,7 @@
     justify-content: center;
     height: 420px;
     width: auto;
+    margin-top: 9px;
 }
 
 .photo-slot {
@@ -82,6 +108,7 @@
 .photo-first {
     width: 260px;
     height: 420px;
+    border: 2px solid white;
     z-index: 3;
 }
 
@@ -105,30 +132,28 @@
 }
 
 .review-card {
-    width: 454px;
+    width: 416px;
     height: 172px;
     margin-top: 36px;
     background: #ffffff;
     border: 1px solid #efefef;
-    border-radius: var(--radius-lg);
-    padding: 16px 20px;
-    max-width: 300px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
     z-index: 2;
     border-radius: 5px;
+    margin-left: 4px;
 }
 
 .review-header {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 12px;
 }
 
 .reviewer-avatar {
     width: 36px;
     height: 36px;
     border-radius: 50%;
+    margin-top: 16px;
+    margin-left: 19px;
     object-fit: cover;
     flex-shrink: 0;
 }
@@ -139,7 +164,7 @@
     border-radius: 50%;
     background-color: #e8c8a0;
     color: #7a4f28;
-    font-family: Sofia-pro;
+    font-family: Sofia-pro-light;
     font-size: 12px;
     font-weight: 600;
     display: flex;
@@ -151,25 +176,26 @@
 .reviewer-meta {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    padding-left: 12px;
+    margin-top: 28px;
 }
 
 .reviewer-top {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
 }
 
 .reviewer-name {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
-    color: var(--text-primary);
+    color: #676869;
 }
 
 .star-rating {
     font-size: 12px;
     line-height: 1;
-    color: #FFB801;
+    margin-left: 10px;
 }
 
 .star {
@@ -177,17 +203,21 @@
 }
 
 .star--filled {
-    color: var(--star-gold);
+    color: #FFB801;
 }
 
 .reviewer-badge {
     font-size: 11px;
-    color: var(--text-secondary);
+    color: #828282;
 }
 
 .review-text {
     font-size: 12px;
-    color: var(--text-secondary);
-    line-height: 1.65;
-    margin: 0;
+    font-weight: 400px;
+    color: #828282;
+    line-height: 23px;
+    margin-left: 21px;
+    margin-top: 12px;
+    width: 377px;
+    letter-spacing: 4%;
 }

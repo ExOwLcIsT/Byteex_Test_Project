@@ -7,8 +7,10 @@ import "../Hero.css";
 export default function Hero() {
   return (
     <div className="hero">
-      <HeroContent></HeroContent>
-      <HeroImages></HeroImages>
+      <div className="hero-container">
+        <HeroContent></HeroContent>
+        <HeroImages></HeroImages>
+      </div>
     </div>
   );
 }

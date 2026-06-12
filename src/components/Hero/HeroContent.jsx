@@ -2,25 +2,25 @@ import ReviewCard from "./ReviewCard";
 const FEATURES = [
   {
     id: 1,
-    icon: "/icons/icon1.png",
+    icon: "/icons/day_night.png",
     text: "Beautiful, comfortable loungewear for day or night.",
   },
   {
     id: 2,
-    icon: "/icons/icon2.png",
+    icon: "/icons/shopping_cart.png",
     text: "No wasteful extras, like tags or plastic packaging.",
   },
   {
     id: 3,
-    icon: "/icons/icon3.png",
+    icon: "/icons/waves.png",
     text: "Our signature fabric is incredibly comfortable — unlike anything you've ever felt.",
   },
 ];
 
 export default function HeroContent() {
   return (
-    <div className="hero-content">
-      <h1 className="hero-title">Don't apologize for being comfortable.</h1>
+    <div className="hero-content content">
+      <div className="content-title">Don't apologize for being comfortable.</div>
 
       <ul className="feature-list">
         {FEATURES.map((f) => (

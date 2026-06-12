@@ -38,8 +38,8 @@ export default function ReviewCard({ review = REVIEW }) {
           <div className="reviewer-top">
             <span className="reviewer-name">{review.name}</span>
             <StarRating count={review.rating} />
+            <span className="reviewer-badge">{review.badge}</span>
           </div>
-          <span className="reviewer-badge">{review.badge}</span>
         </div>
       </div>
       <p className="review-text">{review.text}</p>

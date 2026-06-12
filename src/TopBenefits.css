@@ -3,13 +3,134 @@
     height: 530px;
     background: linear-gradient(180deg, #F9F0E5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);
     padding-top: 86px;
+    text-align: center;
+}
+
+.top-benefits-container {
+    margin: 120px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .as-seen-in {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-family: Sofia-pro;
+    flex-direction: column;
+    text-align: center;
+    font-family: Sofia-pro-light;
     color: #868787;
     font-size: 20px;
+}
+
+.as-seen-in span {
+
+    vertical-align: text-top;
+}
+
+.as-seen-in img {
+
+    width: 85%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+
+
+.top-benefits-content {
+    width: 600px;
+}
+
+.top-benefits-content .content-title {
+    width: 530px;
+    height: 40px;
+    text-align: left;
+    font-family: Sofia-pro;
+    font-weight: 400;
+    color: #01005B;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.top-benefits-content .feature-list {
+
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.top-benefits-content .feature-item {
+    height: fit-content;
+    min-height: 34px;
+    line-height: 23px;
+    font-family: "Sofia-pro-light";
+    font-size: 15px;
+    letter-spacing: 3%;
+    width: fit-content;
+    display: flex;
+    color: #676869;
+    text-align: left;
+    max-width: 500px;
+    gap: 32px;
+    margin-bottom: 12px;
+}
+
+.top-benefits-content .feature-icon {
+    height: 42px;
+    width: 42px;
+}
+
+.top-benefits-content .feature-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.top-benefits-content .feature-text-box .feature-title {
+    width: 305px;
+    height: 20px;
+    text-align: left;
+    font-family: Sofia-pro-light;
+    color: #01005B;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    margin: 0;
+}
+
+.top-benefits-content .feature-text-box .feature-text {
+    width: 497px;
+    letter-spacing: 3%;
+}
+
+.top-benefits-carousel {
+    width: 600px;
+    height: 650px;
+    text-align: right;
+    align-items: center;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.carousel-image-slot {
+    width: 433px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.carousel-image-slot img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-image-slot span {
+    text-align: center;
+    color: #676869;
 }

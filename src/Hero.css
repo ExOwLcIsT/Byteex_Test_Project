@@ -1,0 +1,103 @@
+.hero-content {
+    text-align: left;
+    width: 600px;
+}
+.hero-content > *{
+    text-align: left;
+    padding-right: 100px;
+    width: 600px;
+    margin: 17px;
+}
+.hero-content h1 {
+    width: 592px;
+    height: 87px;
+    text-align: left;
+    font-family: Sofia-pro;
+    color: #01005B;
+    font-style: Regular;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: 4%;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    height: 34px;
+    line-height: 23px;
+    font-family: "Sofia-pro";
+    font-size: 15px;
+    letter-spacing: 3%;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    color: #676869;
+    text-align: left;
+    max-width: 500px;
+}
+
+.feature-text {
+    margin-left: 13px;
+}
+
+.feature-icon {
+    height: 31px;
+    width: 31px;
+}
+
+.cta-button {
+    background-color: #01005B;
+    color: #FFFFFF;
+    width: 356px;
+    height: 56px;
+    border-radius: 5px;
+    font-family: Sofia-pro;
+}
+
+.hero-images {
+    width: fit-content;
+}
+
+.photos-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    width: auto;
+}
+
+.photo-slot {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    flex-shrink: 0;
+    margin-left: -40px;
+}
+
+.photo-first {
+    width: 260px;
+    height: 420px;
+    z-index: 3;
+}
+
+.photo-second {
+    width: 209px;
+    height: 316px;
+    z-index: 2;
+}
+
+.photo-third {
+    width: 134px;
+    height: 189px;
+    z-index: 1;
+}
+
+.photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    display: block;
+}

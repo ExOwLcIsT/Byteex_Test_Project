@@ -1,6 +1,5 @@
 .top-benefits {
     margin-top: -86px;
-    height: 530px;
     background: linear-gradient(180deg, #F9F0E5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);
     padding-top: 86px;
     text-align: center;
@@ -9,6 +8,7 @@
 .top-benefits-container {
     margin: 120px;
     margin-right: 0;
+    height: fit-content;
     display: flex;
     flex-direction: row;
 }

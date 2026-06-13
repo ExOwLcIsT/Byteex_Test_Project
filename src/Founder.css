@@ -1,0 +1,87 @@
+.founder-container {
+    margin-top: 137px;
+    margin-left: 123px;
+    display: flex;
+    gap: 97px;
+}
+
+.founder-image-container {
+    width: 523px;
+    height: 664px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.founder-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.founder-main-image {
+    position: absolute;
+    width: 382px;
+    height: 570px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+}
+
+.founder-top-left-image,
+.founder-bottom-right-image {
+    position: absolute;
+
+    z-index: 3;
+    border: 3px solid white;
+}
+
+.founder-top-left-image {
+    width: 165px;
+    height: 175px;
+    top: 0;
+    left: 0;
+}
+
+.founder-bottom-right-image {
+    width: 128px;
+    height: 175px;
+    bottom: 0;
+    right: 0;
+}
+
+.founder-content {
+    margin-top: 30px;
+    width: 641px;
+    font-family: Sofia-pro-light;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.founder-content-title {
+    text-align: left;
+    color: #01005B;
+    font-family: Sofia-pro;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 4%;
+}
+
+.founder-content-text {
+    color: #6C6C6C;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+}
+
+.founder-content-text p {
+    margin-top: 20px;
+}
+
+.founder-content .cta-button {
+    width: 356px;
+    height: 56px;
+}

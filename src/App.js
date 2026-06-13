@@ -7,6 +7,7 @@ import Founder from "./components/Founder";
 import Comfort from "./components/Comfort";
 import Community from "./components/Community";
 import FAQ from "./components/FAQ";
+import Info from "./components/Info";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Comfort></Comfort>
       <Community />
       <FAQ />
+      <Info />
     </div>
   );
 }

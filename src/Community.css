@@ -1,0 +1,181 @@
+.community {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 74px;
+}
+
+.community-content-title {
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Sofia-pro-light;
+    color: #01005B;
+}
+
+.community-content-subtitle {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: Sofia-pro-light;
+    width: 600px;
+    text-align: center;
+    white-space: normal;
+    color: #676869;
+}
+
+.community-gallery {
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.gallery-item {
+    width: calc(9% - 5px);
+    height: 128px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.community-carousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: 48px auto 0;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+
+.review-carousel-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.review-carousel-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review-carousel-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background-color: #01005B;
+}
+
+.review-carousel-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.review-carousel-name {
+    font-family: Sofia-pro;
+    font-size: 14px;
+    font-weight: 600;
+    color: #01005B;
+}
+
+.star-rating {
+    font-size: 14px;
+}
+
+.star {
+    color: #d1d5db;
+}
+
+.star--filled {
+    color: #FFB801;
+}
+
+.review-carousel-text {
+    font-family: Sofia-pro-light;
+    font-size: 14px;
+    color: #676869;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.review-carousel-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.review-carousel-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review-carousel-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background-color: #01005B;
+}
+
+.review-carousel-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.review-carousel-name {
+    font-family: Sofia-pro;
+    font-size: 14px;
+    font-weight: 600;
+    color: #01005B;
+}
+
+.star-rating {
+    font-size: 14px;
+}
+
+.star {
+    color: #d1d5db;
+}
+
+.star--filled {
+    color: #FFB801;
+}
+
+.review-carousel-text {
+    font-family: Sofia-pro-light;
+    font-size: 14px;
+    color: #676869;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.community .cta-button {
+    width: 369px;
+    height: 56px;
+}

@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import TopBenefits from "./components/TopBenefits";
 import Founder from "./components/Founder";
 import Comfort from "./components/Comfort";
+import Community from "./components/Community";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <TopBenefits></TopBenefits>
       <Founder></Founder>
       <Comfort></Comfort>
+      <Community />
     </div>
   );
 }

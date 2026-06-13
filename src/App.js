@@ -6,6 +6,7 @@ import TopBenefits from "./components/TopBenefits";
 import Founder from "./components/Founder";
 import Comfort from "./components/Comfort";
 import Community from "./components/Community";
+import FAQ from "./components/FAQ";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Founder></Founder>
       <Comfort></Comfort>
       <Community />
+      <FAQ />
     </div>
   );
 }

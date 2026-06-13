@@ -1,0 +1,118 @@
+.faq-container {
+    margin-top: 61px;
+    margin-left: 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.faq-content {
+    text-align: left;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-content .content-title {
+    text-align: left;
+    font-family: Sofia-pro-light;
+    color: #01005B;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 4%;
+}
+
+
+.faq-content .faq-list {
+    margin-top: 47px;
+}
+
+
+.faq-list-item {
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    height: fit-content;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.faq-list-item .faq-header {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Sofia-pro-light;
+    color: #01005B;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 4%;
+    justify-content: space-between;
+}
+
+.faq-header .faq-expander {
+    margin-right: 15px;
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.faq-list-item .faq-answer {
+    width: 90%;
+    font-family: Sofia-pro-light;
+    font-size: 15px;
+    line-height: 22px;
+    color: #676869;
+    padding-top: 10px;
+}
+
+
+
+
+
+.faq-image-container {
+    width: 390px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.faq-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.faq-main-image {
+    position: absolute;
+    width: 227px;
+    height: 355px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 3;
+}
+
+.faq-top-right-image,
+.faq-bottom-left-image {
+    z-index: 1;
+    position: absolute;
+}
+
+.faq-top-right-image {
+    width: 167px;
+    height: 253px;
+    top: 0;
+    right: 0;
+}
+
+.faq-bottom-left-image {
+    width: 216px;
+    height: 159px;
+    bottom: 0;
+    left: 0;
+}

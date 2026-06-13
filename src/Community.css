@@ -59,6 +59,7 @@
 
 .review-carousel-card {
     background: #ffffff;
+    border: 1px solid #EAEAEA;
     border-radius: 8px;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
     padding: 24px;

@@ -187,24 +187,6 @@
     color: #676869;
 }
 
-.star-rating {
-    font-size: 12px;
-    line-height: 1;
-    margin-left: 10px;
-}
-
-.star {
-    color: #d1d5db;
-}
-
-.star--filled {
-    color: #FFB801;
-}
-
-.reviewer-badge {
-    font-size: 11px;
-    color: #828282;
-}
 
 .review-text {
     font-size: 12px;

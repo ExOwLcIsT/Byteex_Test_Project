@@ -1,0 +1,75 @@
+.comfort {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.comfort-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comfort-container .content-title {
+    color: #01005B;
+    font-family: Sofia-pro-light;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 4%;
+}
+
+.comfort-content {
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 56px;
+}
+
+.comfort-content .comfort-card {
+    width: 346px;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 77px;
+    gap: 16px;
+    border-radius: 8px;
+}
+
+
+.comfort-content .comfort-card:nth-child(odd) {
+    background-color: #F0EEEF;
+}
+
+.comfort-content .comfort-card:nth-child(even) {
+    background-color: #F9F0E6;
+}
+
+.comfort-content .comfort-card .comfort-card-icon {
+    width: 51px;
+    height: 51px;
+}
+
+.comfort-content .comfort-card .comfort-card-title {
+    color: #01005B;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 4%;
+}
+
+.comfort-content .comfort-card .comfort-card-text {
+    width: 80%;
+    font-family: Sofia-pro-light;
+    font-size: 15px;
+    line-height: 23px;
+    color: #676869;
+    text-align: center;
+}
+
+.comfort-container .cta-button {
+    width: 369px;
+    height: 56px;
+}

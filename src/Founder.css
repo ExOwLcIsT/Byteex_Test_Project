@@ -1,8 +1,9 @@
 .founder-container {
-    margin-top: 137px;
-    margin-left: 123px;
+    padding: 137px;
+    padding-left: 123px;
     display: flex;
     gap: 97px;
+    background-color: #F0EEEF;
 }
 
 .founder-image-container {

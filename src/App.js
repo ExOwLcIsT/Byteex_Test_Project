@@ -8,6 +8,7 @@ import Comfort from "./components/Comfort";
 import Community from "./components/Community";
 import FAQ from "./components/FAQ";
 import Info from "./components/Info";
+import CTA from "./components/CTA";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <Community />
       <FAQ />
       <Info />
+      <CTA/>
     </div>
   );
 }

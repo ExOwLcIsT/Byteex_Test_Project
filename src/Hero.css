@@ -81,49 +81,8 @@
 
 .hero-images {
     width: fit-content;
-}
-
-.photos-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 420px;
-    width: auto;
-    margin-top: 9px;
-}
-
-.photo-slot {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    flex-shrink: 0;
-    margin-left: -40px;
-}
-
-.photo-first {
-    width: 260px;
-    height: 420px;
-    border: 2px solid white;
-    z-index: 3;
-}
-
-.photo-second {
-    width: 209px;
-    height: 316px;
-    z-index: 2;
-}
-
-.photo-third {
-    width: 134px;
-    height: 189px;
-    z-index: 1;
-}
-
-.photo-img {
-    width: 100%;
-    height: 100%;
-    object-fit: none;
-    display: block;
+    height: 422px;
+    width: 725px;
 }
 
 .review-card {

@@ -20,7 +20,9 @@ const FEATURES = [
 export default function HeroContent() {
   return (
     <div className="hero-content content">
-      <div className="content-title">Don't apologize for being comfortable.</div>
+      <div className="content-title">
+        Don't apologize for being comfortable.
+      </div>
 
       <ul className="feature-list">
         {FEATURES.map((f) => (

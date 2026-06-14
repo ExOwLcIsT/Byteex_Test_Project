@@ -7,11 +7,11 @@
 
 .hero-content {
     text-align: left;
-    width: 600px;
+    max-width: 600px;
 }
 
 .hero-content .content-title {
-    width: 592px;
+    width: 100%;
     height: 87px;
     text-align: left;
     font-family: Sofia-pro-light;
@@ -82,7 +82,7 @@
 .hero-images {
     width: fit-content;
     height: 422px;
-    width: 725px;
+    width: 100%;
 }
 
 .review-card {
@@ -154,6 +154,25 @@
     line-height: 23px;
     margin-left: 21px;
     margin-top: 12px;
-    width: 377px;
+    width: 90%;
     letter-spacing: 4%;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        gap: 25px;
+        margin-left: 24px;
+        margin-right: 24px;
+        text-align: center;
+        align-items: center;
+    }
+  
+    .review-card {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
 }

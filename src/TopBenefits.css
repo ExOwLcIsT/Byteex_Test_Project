@@ -134,3 +134,28 @@
     text-align: center;
     color: #676869;
 }
+
+
+@media (max-width:768px) {
+    .top-benefits-container {
+        flex-direction: column-reverse;
+        margin-left: 24px;
+        margin-right: 24px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .top-benefits-content .feature-list {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .top-benefits-content .feature-list .feature-item,
+    .feature-text-box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}

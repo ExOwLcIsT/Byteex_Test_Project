@@ -60,3 +60,21 @@
 
     font-size: 15px;
 }
+
+
+@media (max-width : 768px) {
+    .info-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-content .info-card {
+        border-right: none;
+        border-bottom: 1px solid #C4C4C480;
+    }
+
+    .info-content .info-card:last-child {
+        border: none;
+    }
+}

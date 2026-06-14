@@ -29,7 +29,7 @@
 .cta-images-container {
     margin-top: 8px;
     height: 373px;
-    width: 815px;
+    width: 100%;
 }
 
 .cta-button {
@@ -74,4 +74,10 @@
     letter-spacing: 3%;
     text-align: left;
     flex: 1;
+}
+
+@media (max-width : 768px) {
+    .cta * {
+        max-width: 100%;
+    }
 }

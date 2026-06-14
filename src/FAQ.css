@@ -3,7 +3,7 @@
     margin-left: 102px;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .faq-content {
@@ -115,4 +115,15 @@
     height: 159px;
     bottom: 0;
     left: 0;
+}
+
+@media (max-width : 768px) {
+    .faq-content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .faq-image-container {
+        display: none;
+    }
 }

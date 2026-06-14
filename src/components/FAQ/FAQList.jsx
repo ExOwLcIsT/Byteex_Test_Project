@@ -42,7 +42,7 @@ export default function FAQList() {
   return (
     <div className="faq-list">
       {FAQs.map((faq) => {
-        return <FAQItem question={faq.question} answer={faq.answer} />;
+        return <FAQItem key={faq.id} question={faq.question} answer={faq.answer} />;
       })}
     </div>
   );
